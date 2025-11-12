@@ -444,8 +444,12 @@ Niceties
 
 Version History
 ===============
-(Next release)
-  * Fix bug #238: correctly handle `/` expressions with multiple terms in a row. (lucaswiman)
+
+0.11.0
+  * Correctly handle `/` expressions with multiple terms in a row. (lucaswiman)
+  * Start using pyproject.toml. (Kolanich)
+  * Add a ``ParsimoniousError`` exception base class. (Kevin Kirsche)
+  * Fall back to ``re`` when the ``regex`` lib is not available. (Pavel Kirienko)
 
 0.10.0
   * Fix infinite recursion in __eq__ in some cases. (FelisNivalis)
